@@ -1,0 +1,580 @@
+mission = 
+{
+	["groundControl"] = 
+	{
+		["passwords"] = 
+		{
+			["artillery_commander"] = {},
+			["instructor"] = {},
+			["observer"] = {},
+			["forward_observer"] = {},
+		}, -- end of ["passwords"]
+		["roles"] = 
+		{
+			["artillery_commander"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["artillery_commander"]
+			["instructor"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["instructor"]
+			["observer"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["observer"]
+			["forward_observer"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["forward_observer"]
+		}, -- end of ["roles"]
+		["isPilotControlVehicles"] = false,
+	}, -- end of ["groundControl"]
+	["requiredModules"] = {},
+	["date"] = 
+	{
+		["Year"] = 1987,
+		["Day"] = 1,
+		["Month"] = 6,
+	}, -- end of ["date"]
+	["trig"] = 
+	{
+		["actions"] = {},
+		["events"] = {},
+		["custom"] = {},
+		["func"] = {},
+		["flag"] = {},
+		["conditions"] = {},
+		["customStartup"] = {},
+		["funcStartup"] = {},
+	}, -- end of ["trig"]
+	["maxDictId"] = 5,
+	["result"] = 
+	{
+		["offline"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["offline"]
+		["total"] = 0,
+		["blue"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["red"]
+	}, -- end of ["result"]
+	["pictureFileNameN"] = {},
+	["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
+	["pictureFileNameServer"] = {},
+	["weather"] = 
+	{
+		["wind"] = 
+		{
+			["at8000"] = 
+			{
+				["speed"] = 0,
+				["dir"] = 0,
+			}, -- end of ["at8000"]
+			["atGround"] = 
+			{
+				["speed"] = 0,
+				["dir"] = 0,
+			}, -- end of ["atGround"]
+			["at2000"] = 
+			{
+				["speed"] = 0,
+				["dir"] = 0,
+			}, -- end of ["at2000"]
+		}, -- end of ["wind"]
+		["enable_fog"] = false,
+		["season"] = 
+		{
+			["temperature"] = 20,
+		}, -- end of ["season"]
+		["qnh"] = 760,
+		["cyclones"] = 
+		{
+			[1] = 
+			{
+				["rotation"] = -0.46338488397315,
+				["centerZ"] = -684414.90412475,
+				["pressure_spread"] = 880057.44356114,
+				["ellipticity"] = 0.97328739663432,
+				["pressure_excess"] = -1182,
+				["centerX"] = 71548.211383033,
+			}, -- end of [1]
+		}, -- end of ["cyclones"]
+		["dust_density"] = 0,
+		["enable_dust"] = false,
+		["clouds"] = 
+		{
+			["thickness"] = 200,
+			["density"] = 0,
+			["preset"] = "Preset8",
+			["base"] = 5460,
+			["iprecptns"] = 0,
+		}, -- end of ["clouds"]
+		["atmosphere_type"] = 0,
+		["groundTurbulence"] = 0,
+		["halo"] = 
+		{
+			["preset"] = "auto",
+		}, -- end of ["halo"]
+		["type_weather"] = 0,
+		["modifiedTime"] = false,
+		["name"] = "Winter, clean sky",
+		["fog"] = 
+		{
+			["visibility"] = 0,
+			["thickness"] = 0,
+		}, -- end of ["fog"]
+		["visibility"] = 
+		{
+			["distance"] = 80000,
+		}, -- end of ["visibility"]
+	}, -- end of ["weather"]
+	["theatre"] = "GermanyCW",
+	["triggers"] = 
+	{
+		["zones"] = {},
+	}, -- end of ["triggers"]
+	["map"] = 
+	{
+		["centerY"] = -761407.2057622,
+		["zoom"] = 136165.50897062,
+		["centerX"] = -410183.07029236,
+	}, -- end of ["map"]
+	["coalitions"] = 
+	{
+		["neutrals"] = 
+		{
+			[1] = 18,
+			[2] = 91,
+			[3] = 70,
+			[4] = 83,
+			[5] = 21,
+			[6] = 23,
+			[7] = 65,
+			[8] = 86,
+			[9] = 64,
+			[10] = 25,
+			[11] = 8,
+			[12] = 63,
+			[13] = 27,
+			[14] = 28,
+			[15] = 76,
+			[16] = 84,
+			[17] = 26,
+			[18] = 13,
+			[19] = 90,
+			[20] = 29,
+			[21] = 62,
+			[22] = 30,
+			[23] = 16,
+			[24] = 87,
+			[25] = 61,
+			[26] = 33,
+			[27] = 60,
+			[28] = 17,
+			[29] = 34,
+			[30] = 35,
+			[31] = 15,
+			[32] = 69,
+			[33] = 36,
+			[34] = 59,
+			[35] = 37,
+			[36] = 71,
+			[37] = 79,
+			[38] = 58,
+			[39] = 57,
+			[40] = 56,
+			[41] = 55,
+			[42] = 92,
+			[43] = 88,
+			[44] = 38,
+			[45] = 73,
+			[46] = 39,
+			[47] = 89,
+			[48] = 54,
+			[49] = 72,
+			[50] = 0,
+			[51] = 42,
+			[52] = 75,
+			[53] = 45,
+			[54] = 19,
+			[55] = 9,
+			[56] = 53,
+			[57] = 22,
+			[58] = 47,
+			[59] = 52,
+			[60] = 66,
+			[61] = 51,
+			[62] = 4,
+			[63] = 1,
+			[64] = 74,
+			[65] = 82,
+			[66] = 7,
+			[67] = 50,
+			[68] = 49,
+			[69] = 48,
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			[1] = 11,
+			[2] = 80,
+			[3] = 5,
+			[4] = 6,
+			[5] = 31,
+			[6] = 20,
+			[7] = 12,
+			[8] = 77,
+			[9] = 46,
+			[10] = 10,
+			[11] = 3,
+			[12] = 2,
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			[1] = 24,
+			[2] = 81,
+			[3] = 78,
+			[4] = 32,
+			[5] = 40,
+			[6] = 41,
+			[7] = 43,
+			[8] = 44,
+			[9] = 85,
+			[10] = 68,
+			[11] = 67,
+		}, -- end of ["red"]
+	}, -- end of ["coalitions"]
+	["descriptionText"] = "DictKey_descriptionText_1",
+	["pictureFileNameR"] = {},
+	["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
+	["goals"] = {},
+	["descriptionRedTask"] = "DictKey_descriptionRedTask_2",
+	["pictureFileNameB"] = {},
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 0,
+				["x"] = 0,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = -781,
+				["x"] = -384,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "blue",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 6,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 295,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -774757.8762235,
+											["x"] = -412897.62396964,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 1,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "leopard-2A4",
+										["unitId"] = 1,
+										["y"] = -774757.8762235,
+										["x"] = -412897.62396964,
+										["name"] = "Ground-1-1",
+										["heading"] = 0.82030474843733,
+										["playerCanDrive"] = true,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "leopard-2A4",
+										["unitId"] = 2,
+										["y"] = -774708.31680363,
+										["x"] = -412971.29337755,
+										["name"] = "Ground-1-2",
+										["heading"] = 0.82030474843733,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "leopard-2A4",
+										["unitId"] = 3,
+										["y"] = -774858.33450702,
+										["x"] = -412868.15620647,
+										["name"] = "Ground-1-3",
+										["heading"] = 0.82030474843733,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "leopard-2A4",
+										["unitId"] = 4,
+										["y"] = -774944.05890895,
+										["x"] = -412821.27567416,
+										["name"] = "Ground-1-4",
+										["heading"] = 0.82030474843733,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = -774757.8762235,
+								["x"] = -412897.62396964,
+								["name"] = "Ground-1",
+								["start_time"] = 0,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "Germany",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = -781,
+				["x"] = -384,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 68,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -771447.97158051,
+												["x"] = -409551.46205318,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -774716.54916045,
+												["x"] = -412839.37498202,
+											}, -- end of [2]
+										}, -- end of [1]
+										[2] = 
+										{
+											[1] = 
+											{
+												["y"] = -774716.54916045,
+												["x"] = -412839.37498202,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -774716.54916045,
+												["x"] = -412839.37498202,
+											}, -- end of [2]
+										}, -- end of [2]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 296,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -771447.97158051,
+											["x"] = -409551.46205318,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Rank",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 295,
+											["type"] = "Turning Point",
+											["ETA"] = 281.92859144823,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -774716.54916045,
+											["x"] = -412839.37498202,
+											["ETA_locked"] = false,
+											["speed"] = 16.444444444444,
+											["action"] = "Rank",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 2,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "T-72B",
+										["unitId"] = 5,
+										["y"] = -771447.97158051,
+										["x"] = -409551.46205318,
+										["name"] = "Ground-2-1",
+										["heading"] = 3.9240417861265,
+										["playerCanDrive"] = true,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "T-72B",
+										["unitId"] = 6,
+										["y"] = -771477.22572857,
+										["x"] = -409578.74198758,
+										["name"] = "Ground-2-2",
+										["heading"] = 3.9240417861265,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "T-72B",
+										["unitId"] = 7,
+										["y"] = -771506.47987663,
+										["x"] = -409606.02192198,
+										["name"] = "Ground-2-3",
+										["heading"] = 3.9240417861265,
+										["playerCanDrive"] = true,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "T-72B",
+										["unitId"] = 8,
+										["y"] = -771535.7340247,
+										["x"] = -409633.30185638,
+										["name"] = "Ground-2-4",
+										["heading"] = 3.9240417861265,
+										["playerCanDrive"] = true,
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = -771447.97158051,
+								["x"] = -409551.46205318,
+								["name"] = "Ground-2",
+								["start_time"] = 0,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+					["name"] = "USSR",
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["sortie"] = "DictKey_sortie_5",
+	["version"] = 23,
+	["trigrules"] = {},
+	["currentKey"] = 283,
+	["failures"] = {},
+	["forcedOptions"] = {},
+	["start_time"] = 32400,
+} -- end of mission
