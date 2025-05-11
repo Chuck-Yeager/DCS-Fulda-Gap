@@ -55,7 +55,7 @@ def main():
         help='Overwrite uncommitted changes when unpacking the mission')
     args = parser.parse_args()
 
-    miz_subdir = 'FULDA_GAP_1.0'
+    miz_subdir = 'FULDA_GAP'
     mizname = 'FULDA_GAP'
     miz_fullname = mizname + '.miz'
     miz_fullpath = canonical_path(miz_fullname)
